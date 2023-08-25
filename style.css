@@ -3,14 +3,17 @@ body {
 }
 .jumbotron {
   padding-top: 7rem;
-  background: linear-gradient(#383636, #0b0b0b);
+  background: linear-gradient(#2e2d2d, #0b0b0b);
 }
 
-#myjourney {
+#mypassion {
+  margin-top: 20px;
   background-image: url(img/wp8176705.jpg);
-  background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
-  height: 100vh;
+}
+
+section {
+  padding-top: 5rem;
 }
