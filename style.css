@@ -19,8 +19,8 @@ section {
 }
 
 li a {
-  transition: all 0.5s ease 1s;
-  display: inline-block;
+  transition: all 0.5s ease;
+  display: flex;
 }
 
 li a:hover {
