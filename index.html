@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary shadow-sm navbar-default fixed-top">
-      <div class="container nav-ku">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary shadow-sm fixed-top">
+      <div class="container">
         <a class="navbar-brand" href="#">Fakhri Djamaris</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -23,13 +23,13 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link active" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#mypassion">My Passion</a>
+              <a class="nav-link active" href="#mypassion">My Passion</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact Me</a>
+              <a class="nav-link active" href="#contact">Contact Me</a>
             </li>
           </ul>
         </div>
@@ -38,20 +38,20 @@
 
     <section class="jumbotron text-center text-white">
       <img src="img/foto-saya.png" alt="Fakhri Djamaris" width="200" class="img-thumbnail rounded-circle" />
-      <h1 class="display-4" data-aos="zoom-in-up" data-aos-duration="2000" data-aos-delay="800">Fakhri Djamaris</h1>
+      <h1 class="display-4" data-aos="zoom-in-up" data-aos-duration="2000" data-aos-delay="1000">Fakhri Djamaris</h1>
       <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,192L48,192C96,192,192,192,288,186.7C384,181,480,171,576,192C672,213,768,267,864,266.7C960,267,1056,213,1152,192C1248,171,1344,181,1392,186.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     </section>
 
     <section id="about" style="height: 780px">
       <div class="container">
-        <div class="row text-center mb-5" data-aos="fade-in" data-aos-duration="2000" data-aos-offset="400">
+        <div class="row text-center mb-5" data-aos="fade-in" data-aos-duration="2000" data-aos-offset="550">
           <div class="col">
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-between fs-5 text-center">
-          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="400">
             <p>
               I am a graduate of SMA Negeri 15 Medan, I have had an interest in learning computers since I was in junior high school. I was born in Medan and raised in Medan. I am the second of two children. Have a hobby of playing games,
               chess. My aspiration since childhood is to become an entrepreneur but maybe it has changed now.
@@ -70,8 +70,8 @@
     <section id="mypassion">
       <div class="container">
         <div class="row pt-3 text-center"  data-aos="fade-in" data-aos-duration="2000">
-          <div class="col text-black mb-5">
-            <h2><u>My Passion</u></h2>
+          <div class="col text-white mb-5">
+            <h2>My Passion</h2>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -122,7 +122,7 @@
           </div>
           <div class="row justify-content-center">
             <div class="col-md-6">
-              <div class="alert alert-danger alert-dismissible fade show d-none my-alert" role="alert" data-aos="zoom-in-down" data-aos-duration="500">
+              <div class="alert alert-danger alert-dismissible fade show d-none my-alert" role="alert" data-aos="zoom-in-down" data-aos-duration="1000">
                 <strong>Thank You!</strong> Your Feedback has been sent.
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
               </div>
@@ -168,8 +168,6 @@
       <p>Created by <a href="https://www.instagram.com/fdjmrs" class="text-white fw-bold text-decoration-none">Fakhri Djamaris</a></p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
     <script>
@@ -202,6 +200,8 @@
           .catch(error => console.error('Error!', error.message))
       })
     </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
