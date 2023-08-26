@@ -17,3 +17,37 @@ body {
 section {
   padding-top: 5rem;
 }
+
+li a {
+  transition: all 0.5s ease 1s;
+  display: inline-block;
+}
+
+li a:hover {
+  color: #7d7979;
+  transform: rotate(2deg);
+}
+
+input[type='text'] {
+  color: white;
+}
+
+input:focus[type='text'] {
+  color: white;
+}
+
+input[type='email'] {
+  color: white;
+}
+
+input:focus-visible[type='email'] {
+  color: white;
+}
+
+#pesan {
+  color: white;
+}
+
+.logo a {
+  margin-left: 13px;
+}
