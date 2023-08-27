@@ -1,12 +1,10 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+}
+body {
+  height: auto;
 }
 
-body {
-  max-height: 100%;
-}
 .jumbotron {
   padding-top: 6rem;
   background: linear-gradient(#282727, #0b0b0b);
