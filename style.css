@@ -1,23 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  max-width: 100%;
-  min-height: auto;
+  max-height: 100%;
 }
 .jumbotron {
-  padding-right: 0;
-  padding-top: 7rem;
+  padding-top: 6rem;
   background: linear-gradient(#282727, #0b0b0b);
 }
 
 #mypassion {
-  margin-top: 20px;
+  padding-top: 20px;
   background-image: url(img/wp8176705.jpg);
   background-position: center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
-}
-
-section {
-  padding-top: 5rem;
 }
 
 li a {
@@ -47,10 +48,6 @@ input:focus-visible[type='email'] {
 
 #pesan {
   color: white;
-}
-
-.logo a {
-  margin-left: 13px;
 }
 
 .navbar {
