@@ -7,7 +7,8 @@ body {
 
 .jumbotron {
   padding-top: 6rem;
-  background: linear-gradient(#282727, #0b0b0b);
+  background: rgba(0, 0, 0, 0.4) url('img/back1.jpg') center repeat;
+  background-size: cover;
 }
 
 #mypassion {
@@ -17,6 +18,10 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 li a {
