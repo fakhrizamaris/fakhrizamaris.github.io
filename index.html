@@ -129,15 +129,15 @@
               <form name="submit-to-google-sheet">
                 <div class="mb-3" data-aos="zoom-out-up" data-aos-duration="1500" data-aos-delay="200">
                   <label for="name" class="form-label">Nama Lengkap</label>
-                  <input type="text" class="form-control bg-transparent" id="name" aria-describedby="name" name="nama"/>
+                  <input type="text" class="form-control bg-transparent" id="name" aria-describedby="name" name="nama" required/>
                 </div>
                 <div class="mb-3" data-aos="zoom-out-up" data-aos-duration="1500" data-aos-delay="400">
                   <label for="email" class="form-label">Email</label>
-                  <input type="email" class="form-control bg-black" id="email" aria-describedby="email" name="email"/>
+                  <input type="email" class="form-control bg-black" id="email" aria-describedby="email" name="email" required/>
                 </div>
                 <div class="mb-3"data-aos="zoom-out-up" data-aos-duration="1500" data-aos-delay="600">
                   <label for="pesan" class="form-label">Pesan</label>
-                  <textarea class="form-control bg-black" id="pesan" rows="3" name="pesan"></textarea>
+                  <textarea class="form-control bg-black" id="pesan" rows="3" name="pesan" required></textarea>
                 </div>
                 <button type="submit" class="btn btn-success btn-kirim" data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="800">Submit</button>
                 <button class="btn btn-success btn-loading d-none" type="button" disabled>

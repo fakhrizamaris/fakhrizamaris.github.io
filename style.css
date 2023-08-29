@@ -7,9 +7,10 @@ body {
 
 .jumbotron {
   padding-top: 6rem;
-  background: rgba(0, 0, 0, 0.4) url('img/back1.jpg') center repeat;
-  filter: blur(30);
+  color: black;
+  background: rgba(0, 0, 0, 0.853) url('img/back1.jpg') center repeat-x;
   background-size: cover;
+  backdrop-filter: blur(50px);
 }
 
 #mypassion {
