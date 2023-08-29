@@ -8,6 +8,7 @@ body {
 .jumbotron {
   padding-top: 6rem;
   background: rgba(0, 0, 0, 0.4) url('img/back1.jpg') center repeat;
+  filter: blur(30);
   background-size: cover;
 }
 
